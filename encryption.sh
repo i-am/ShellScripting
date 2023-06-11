@@ -13,7 +13,7 @@ while [[ "$#" -gt 0 ]]
 done
 
 if [[ $password == "" ]]; then
-    password = $RANDOM
+    password=$RANDOM
 fi
 
 algo_names=(SHA1 SHA256 SHA512 MD5)
